@@ -26,6 +26,28 @@
     </form>
 
     <script>
+
+           document.addEventListener('DOMContentLoaded', (event) => {
+    // This code runs when the DOM is ready, i.e. when the document has been parsed
+
+    // Add this new event listener for your login/register button
+           document.getElementById("login-btn").addEventListener("click", function() {
+        // Code to display the login form
+          document.getElementById("loginForm").style.display = 'block';
+          document.getElementById("registerForm").style.display = 'none';
+    });
+
+    // Existing login form event listener
+          document.getElementById("loginForm").addEventListener("submit", function(event) {
+        // ... existing code ...
+    });
+
+    // Existing register form event listener
+          document.getElementById("registerForm").addEventListener("submit", function(event) {
+        // ... existing code ...
+    });
+});
+    
         // Login
         document.getElementById("loginForm").addEventListener("submit", function(event) {
             event.preventDefault();
