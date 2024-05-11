@@ -4,59 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Worldlearner Encyclopedia</title>
+    <!-- Add the W3.CSS stylesheet -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Hot Topics</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About Us</a></li>
-          
+<header class="w3-container w3-teal">
+    <nav class="w3-bar">
+        <ul class="w3-navbar">
+            <li><a href="#" class="w3-bar-item w3-button">Home</a></li>
+            <li><a href="#" class="w3-bar-item w3-button">Hot Topics</a></li>
+            <li><a href="#" class="w3-bar-item w3-button">Contact</a></li>
+            <li><a href="#" class="w3-bar-item w3-button">About Us</a></li>
         </ul>
     </nav>
 
-    <div id="search-bar">
-        <input type="text" placeholder="Search...">
-        <button type="submit">Search</button> 
+    <div id="search-bar" class="w3-bar-item">
+        <input type="text" placeholder="Search..." class="w3-input">
+        <button type="submit" class="w3-button w3-blue">Search</button> 
     </div>
 
-    <button id="login-btn">Login/Register</button> 
+    <button id="login-btn" class="w3-button w3-green">Login/Register</button> 
 </header>
 
-<main>
+<main class="w3-container">
 
-   <section id="intro">
+   <section id="intro" class="w3-padding">
             <h2>Welcome to World Encyclopedia</h2>
             <p>This is the introduction section.</p>
         </section>
         
-        <section id="features">
+        <section id="features" class="w3-padding">
             <h2>Features</h2>
-            <div class="feature">
+            <div class="feature w3-padding">
                 <h3>Feature 1</h3>
                 <p>Plants & Animals.</p>
             </div>
-            <div class="feature">
+            <div class="feature w3-padding">
                 <h3>Feature 2</h3>
-                <p>Science & Technology .</p>
+                <p>Science & Technology.</p>
             </div>
-            <div class="feature">
+            <div class="feature w3-padding">
                  <h3>Feature 3</h3>
-                <p>Jobs & Marketing .</p>
+                <p>Jobs & Marketing.</p>
             </div>
         </section>
 
 </main>
 
-<footer>
-   <p>&copy; 2024 World Encyclopedia. All rights reserved.</p>
+<footer class="w3-container w3-teal">
+   <p>© 2024 World Encyclopedia. All rights reserved.</p>
 </footer>
 
    <script src="login.js"></script>
 
 </body>
-</html>
+                </html>
+                
