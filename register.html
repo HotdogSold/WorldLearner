@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-padding-64">
+    <div class="w3-card-4 w3-margin">
+        <div class="w3-container w3-teal">
+            <h2>Register</h2>
+        </div>
+        <form class="w3-container" action="/submit_registration" method="post">
+            <p>
+                <label class="w3-text-teal"><b>Username</b></label>
+                <input class="w3-input w3-border w3-light-grey" type="text" name="username" required>
+            </p>
+            <p>
+                <label class="w3-text-teal"><b>Email</b></label>
+                <input class="w3-input w3-border w3-light-grey" type="email" name="email" required>
+            </p>
+            <p>
+                <label class="w3-text-teal"><b>Password</b></label>
+                <input class="w3-input w3-border w3-light-grey" type="password" name="password" required>
+            </p>
+            <p>
+                <button class="w3-btn w3-teal" type="submit">Register</button>
+            </p>
+        </form>
+    </div>
+</div>
+
+ <script src="login.js"></script>
+
+</body>
+</html>
